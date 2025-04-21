@@ -41,19 +41,19 @@ int main(){
      return 0;
   }
    if(pow(maior,2) == (pow(medio,2)+ pow(menor,2))){
-     cout <<(" TRIANGULO RETANGULO ")<< endl;
+     cout <<("TRIANGULO RETANGULO")<< endl;
   }
    if(pow(maior,2)> (pow(medio,2)+ pow(menor,2))){
-     cout <<("TRIANGULO OBTUSANGULO ")<< endl;
+     cout <<("TRIANGULO OBTUSANGULO")<< endl;
   }
    if(pow(maior,2)< (pow(medio,2)+ pow(menor,2))){
-     cout <<("TRIANGULO ACUTANGULO ")<< endl;
+     cout <<("TRIANGULO ACUTANGULO")<< endl;
   }
-   if(maior == medio && menor ==c ){
-     cout <<(" TRIANGULO EQUILATERO")<< endl;
+   if(maior == medio && medio == menor  ){
+     cout <<("TRIANGULO EQUILATERO")<< endl;
   }
    if((maior == medio && medio != menor) || (maior == menor && menor!= medio) || (medio == menor && menor != maior)){
-     cout <<(" TRIANGULO ISOSCELES ")<< endl;
+     cout <<("TRIANGULO ISOSCELES")<< endl;
   }
 
    }
