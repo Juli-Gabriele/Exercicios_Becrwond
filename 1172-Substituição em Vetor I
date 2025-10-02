@@ -1,0 +1,20 @@
+#include<stdio.h>
+#define Tam 10
+
+ int main(){
+   int v[Tam],i;
+   for(i==0; i < Tam; i++){
+    scanf("%d",&v[i]);
+    if (v[i ] <= 0){
+        v[i] = 1;
+    }
+     else{
+        v[i] = v[i];
+    }
+    printf("X[%d] = %d\n",i,v[i]);
+   }
+    return 0;
+
+
+ }
+
